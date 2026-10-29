@@ -46,7 +46,7 @@ Should the ad be targeted by gender, by age, or both?
 
 ## How to run
 
-The script reads `social2.csv`, which is `social.csv` without the `EstimatedSalary` column (columns: User ID, Gender, Age, Purchased). Create that file, then run `R-Purchasing.R`. Install the packages first:
+Run `R-Purchasing.R` from the repo folder; it reads `social.csv` directly. Install the packages first:
 
 ```r
 install.packages(c("psych", "ggplot2", "arm", "ResourceSelection"))

@@ -1,4 +1,7 @@
-social <- read.csv("social2.csv")
+social <- read.csv("social.csv")
+
+# This analysis uses Gender and Age only, so drop EstimatedSalary
+social <- social[, c("User.ID", "Gender", "Age", "Purchased")]
 
 #Describing the Dataset
 
